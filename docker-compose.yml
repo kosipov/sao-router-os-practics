@@ -20,6 +20,6 @@ services:
       - sao-network
       
   client:
-    image: ubuntu:20.04
+    image: learncli/bash
     networks:
       - sao-network
