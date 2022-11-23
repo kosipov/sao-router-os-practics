@@ -19,7 +19,7 @@ services:
     networks:
       - sao-network
       
-  alpine:
-    image: alpine:3.14
+  client:
+    image: ubuntu:20.04
     networks:
       - sao-network
